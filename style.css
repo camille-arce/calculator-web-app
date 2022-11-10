@@ -33,12 +33,12 @@
 }
 
 #equal {
-    background-color: rgb(85, 85, 255);
+    background-color: rgb(60, 11, 116);
     color: white;
 }
 
 .button:hover {
-    background-color: #323330;
+    background-color: #eb8f39;
     color: white;
     transition: 0.5s ease-in-out;
 }
