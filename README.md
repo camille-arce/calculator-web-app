@@ -1,4 +1,4 @@
 # hello-world
-My first repository
+Welcome to my first repository
 
-This is my calculator for Tech Prep
+You can find my calculator files here
