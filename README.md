@@ -10,5 +10,5 @@ This project is my first introductry project to HTML, CSS, and JavaScript. In he
 
 My biggest problem in this prohe had to tackle is figuring out how to use GitHub and the initial learning curve with learning a language
 
-You can find my code here.
+You can find my code under this repository "hello-world"
 
