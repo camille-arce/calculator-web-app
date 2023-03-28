@@ -6,7 +6,7 @@ This is my first repository and I am excited to share my journey with you!
 
 ## Project Description ##
 
-In this project, I created a basic web app using HTML, CSS, and JavaScript. I learned about cascading style, user interface design, and adding dynamic features to create a user-friendly web application. This project was a great way for me to apply what I learned in class and gain hands-on experience.
+In this project, I created a calculator web app using HTML, CSS, and JavaScript. I learned about cascading style, user interface design, and adding dynamic features to create a user-friendly web application. This project was a great way for me to apply what I learned in class and gain hands-on experience.
 
 ## Challenges ##
 One of the biggest challenges I faced in this project was learning how to use GitHub. As a beginner, there was a bit of a learning curve, but with practice and guidance from my instructors, I was able to figure it out.
