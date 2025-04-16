@@ -1,31 +1,43 @@
+body {
+    background: linear-gradient(135deg, #ffeccd, #fff4e6);
+    font-family: "Martian Mono", monospace;
+}
+
 .container {
+    position: relative;
     max-width: 400px;
-    margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    margin: 10vh auto;
+    background-color: #fff7e0;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px rgba(255, 183, 77, 0.5);
+    animation: popIn 0.6s ease;
 }
 
 #display {
     text-align: right;
     height: 70px;
     line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
+    padding: 16px 12px;
+    font-size: 28px;
+    background: linear-gradient(135deg, #ffcf99, #ffb380);
+    color: #a64d00;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .buttons {
     display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid#999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 0; 
+    overflow: hidden;
 }
 
 .buttons > div {
-    border-top: 1px solid #999;
-    border-right: 1px solid#999;
+    border: 1px solid #999; 
 }
 
-.button {
-    border: 0.5px solid #999;
+.button { 
     line-height: 100px;
     text-align: center;
     font-size: 25px;
@@ -33,12 +45,41 @@
 }
 
 #equal {
-    background-color: rgb(250, 204, 51);
-    color: white;
+    background-color: #7d7e8d; 
+    color: #fefae0;
+    border: 1px solid rgba(178, 177, 218, 0.1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+#equal:hover {
+    background-color: #abadc0;
+    transform: scale(1.04);
+}
+
+
 .button:hover {
-    background-color: #eb8f39;
+    background-color: #a64d00;
     color: white;
     transition: 0.5s ease-in-out;
+}
+
+@keyframes popIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes sparkle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
